@@ -17,7 +17,7 @@ const Banner = ({ handleScrollMenu }) => {
           <Button
             variant="contained"
             endIcon={<ArrowRightAltIcon />}
-            onclick={handleScrollMenu}
+            onClick={handleScrollMenu}
           >
             View Menu
           </Button>
