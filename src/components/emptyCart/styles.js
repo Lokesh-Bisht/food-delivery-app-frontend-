@@ -1,7 +1,6 @@
 import styled from "@mui/system/styled";
 
 export const EmptyCartWrapper = styled("div")({
-  height: "calc(100vh - 14rem)",
   display: "flex",
   flexDirection: "column",
   justContent: "center",
@@ -10,10 +9,19 @@ export const EmptyCartWrapper = styled("div")({
     backgroundColor: "#000",
     color: "#fff",
     textTransform: "none",
+    marginTop: "1rem",
     "&: hover": {
       backgroundColor: "#000",
       color: "#fff",
     },
+  },
+  p: {
+    fontFamily: "Montserrat",
+    fontSize: "1.8rem",
+    fontWeight: "500",
+    marginTop: "4rem",
+    marginBottom: "1rem",
+    textAlign: "center",
   },
 });
 
@@ -22,4 +30,5 @@ export const EmptyCartImage = styled("img")({
   height: "100%",
   objectFit: "contain",
   maxWidth: "150px",
+  marginTop: "5rem",
 });
