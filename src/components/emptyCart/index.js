@@ -15,6 +15,7 @@ const EmptyCart = () => {
   return (
     <EmptyCartWrapper>
       <EmptyCartImage src={emptyCartImage} alt="empty cart" />
+      <p>Looks like your cart is empty.</p>
       <Button
         aria-label="back"
         variant="contained"
